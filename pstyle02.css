@@ -1,0 +1,223 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 0;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+/* Estilos para el encabezado */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 2px solid #ccc;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff6600;
+}
+
+.current {
+    color: #ff6600;
+}
+
+/* Estilos para los artículos */
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+article {
+    width: 30%;
+    margin-bottom: 30px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+article:hover {
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+/* Estilos para el formulario */
+form {
+    margin-top: 30px;
+}
+
+.submit {
+    text-align: center;
+}
+
+input[type="submit"] {
+    background-color: #ff6600;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #333;
+}
+
+/* Estilos para los nuevos artículos */
+section.courses {
+    margin-top: 50px;
+}
+
+article:nth-child(odd) {
+    margin-right: 20px;
+}
+
+article:nth-child(even) {
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    article {
+        width: 100%;
+    }
+
+    article:nth-child(odd) {
+        margin-right: 0;
+    }
+
+    article:nth-child(even) {
+        margin-left: 0;
+    }
+}
+article figure img {
+    max-width: 100%;
+  }
+/* Estilos para el footer */
+
+footer {
+    background-color: #f5f5f5;
+    padding: 30px 0;
+  }
+  
+  .wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  aside {
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.popular-recipes a {
+    color: #2b2b2b;
+    text-decoration: none;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.popular-recipes a:hover {
+    color: #0085A1;
+}
+
+.contact-details a {
+    display: block;
+    color: #2b2b2b;
+    text-decoration: none;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.contact-details a:hover {
+    color: #0085A1;
+}

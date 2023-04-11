@@ -1,0 +1,116 @@
+/* Estilos generales */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000000;
+}
+
+/* Estilos de encabezado */
+
+header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    box-shadow: 0px 3px 3px rgb(0, 0, 0);
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav a {
+    color: #ff0000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #666;
+}
+
+/* Estilos de contenido principal */
+
+main {
+    margin: 20px;
+}
+
+figure {
+    margin: 0;
+}
+
+iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+}
+
+/* Estilos de barra lateral */
+
+aside {
+    width: 30%;
+    float: left;
+    margin-right: 20px;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.contact {
+    font-weight: bold;
+}
+
+/* Estilos de pie de página */
+
+footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0px -3px 3px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer a {
+    color: #ff0000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #666;
+}
